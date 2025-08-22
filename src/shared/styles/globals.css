@@ -1,0 +1,16 @@
+ @import "tailwindcss";
+
+/* Optional font fallback (Pretendard if installed) */  
+:root {  
+  font-family: Pretendard, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;  
+}  
+
+/* make a simple container helper */  
+.container {  
+  max-width: 1200px;  
+}  
+
+/* small tweak */  
+html, body, #root {  
+  height: 100%;  
+}  
